@@ -3,8 +3,8 @@
 This is the official repository for our recent work: SLTNet[PDF](https://arxiv.org/pdf/2412.12843)
 
 
-* **Spiking Lightweight Dilated module**:  reduce the model parameters while maintaining efficient feature extraction ability; capture multi-scale event features while adapt to SNN architectures.
-* **novel Spike-driven Lightweight Transformer-based segmentation network**: A netwotk with events only to deal with high-dynamic complex scenarios, which is constructed on the basic SCBs and STBs that enable high-efficiency feature extraction and low computational cost.
+* **Spiking Lightweight Dilated module**:  reduce the model parameters while maintaining efficient feature extraction ability; capture multi-scale event features while adapting to SNN architectures.
+* **novel Spike-driven Lightweight Transformer-based segmentation network**: A network with events only to deal with high-dynamic complex scenarios, constructed on the basic SCBs and STBs that enable high-efficiency feature extraction and low computational cost.
 * **Spike-driven Transformer Blocks**: leveraging the re-parameterization convolution technique and spike-driven multi-head self-attention mechanism to achieve long-range contextural feature interaction with only floating-point accumulation operations.
 
 ## Updates
@@ -17,12 +17,12 @@ This is the official repository for our recent work: SLTNet[PDF](https://arxiv.o
 The finetuned models on DDD17 and DSEC-Semantic are available for direct application in road scene parsing.
 
 | Model (DDD17) | Val (% mIOU) | Params (M) | FLOPs (G) | FPS |
-|:-:|:-:|:-:|:-:|
-| Spike-BRGNet | [51.93]() | 0.41 | 1.96 | 114.29 |
+|:-:|:-:|:-:|:-:|:-:|
+| Spike-BRGNet | [51.93](https://drive.google.com/file/d/1gsZ-ykM9-jMwf9UE7Adj4eLRhiaw98Fy/view?usp=drive_link) | 0.41 | 1.96 | 114.29 |
 
 | Model (DSEC-Semantic) | Val (% mIOU) | Params (M) | FLOPs (G) | FPS |
-|:-:|:-:|:-:|:-:|
-| Spike-BRGNet | [47.91]() | 1.67 | 6.97 | 114.29 |
+|:-:|:-:|:-:|:-:|:-:|
+| Spike-BRGNet | [47.91](https://drive.google.com/file/d/1o5FPX1ACfRNL7WNKEkPlAhBnaUnPpKWp/view?usp=drive_link)| 1.67 | 6.97 | 114.29 |
 
 
 ## Installation
@@ -106,14 +106,7 @@ If you think this implementation is useful for your work, please cite our paper:
 ## Thanks && Refer
 
 ```bash
-@misc{Efficient-Segmentation-Networks,
-  author = {Yu Wang},
-  title = {Efficient-Segmentation-Networks Pytorch Implementation},
-  year = {2019},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/xiaoyufenfei/Efficient-Segmentation-Networks}},
-  commit = {master}
+xxx
 }
 ```
 
