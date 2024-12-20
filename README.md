@@ -1,14 +1,13 @@
-# Efficient Event-based Semantic Segmentation with Spike-driven Lightweight Transformer-based Networks
+# SLTNet: Efficient Event-based Semantic Segmentation with Spike-driven Lightweight Transformer-based Networks
 
-This is the official repository for our recent work: SLTNet([PDF])(https://arxiv.org/pdf/2412.12843)
-
+This repository is an official PyTorch implementation of our recent work: **SLTNet**([PDF](https://arxiv.org/pdf/2412.12843)), which was submitted to **2025 IEEE International Conference on Robotics and Automation (ICRA), IEEE ICRA 2025**, titled "Efficient Event-based Semantic Segmentation with Spike-driven Lightweight Transformer-based Networks".
 
 * **Spiking Lightweight Dilated module**:  reduce the model parameters while maintaining efficient feature extraction ability; capture multi-scale event features while adapting to SNN architectures.
 * **novel Spike-driven Lightweight Transformer-based segmentation network**: A network with events only to deal with high-dynamic complex scenarios, constructed on the basic SCBs and STBs that enable high-efficiency feature extraction and low computational cost.
 * **Spike-driven Transformer Blocks**: leveraging the re-parameterization convolution technique and spike-driven multi-head self-attention mechanism to achieve long-range contextural feature interaction with only floating-point accumulation operations.
 
 ## Updates
-   - The article has been submitted to the 2025 ICRA.
+   - The article has been submitted to the **IEEE ICRA 2025**.
    - Our paper was submitted to xxx for public access. (xx/xx/2024)
    - The training and testing codes and trained models for SLTNet are available here. (Dec/18/2024)
 
@@ -68,15 +67,15 @@ The DSEC-Semantic dataset can be downloaded here[https://dsec.ifi.uzh.ch/dsec-se
 │       │   └── ...  
 │       └── ... 
 
-* Remenber to replace the dataset path in the yaml with your ture dataset path
+* Remember to replace the dataset path in the YAML with your true dataset path
 
 
 ### 1. Training
-* For example, train the STLNet on DDD17 with batch size of 32 on 1 GPUs:
+* For example, train the STLNet on DDD17 with a batch size of 32 on 1 GPU:
 ````bash
 python train.py --dataset DDD17_events --input_size 200,346 --classes 6 --dataset_path your_path
 ````
-* Or train the STLNet on DSEC with batch size of 32 on 1 GPUs:
+* Or train the STLNet on DSEC with a batch size of 32 on 1 GPU:
 ````bash
 python train.py --dataset DSEC_events --input_size 480,640 --classes 11 --dataset_path your_path
 ````
@@ -85,11 +84,11 @@ python train.py --dataset DSEC_events --input_size 480,640 --classes 11 --datase
 ### 2. Evaluation
 
 * Download the finetuned models for DDD17 and DSEC-Semantic and put them into `checkpoint/DDD17/` and `checkpoint/DSEC/` dirs, respectively.
-* For example, evaluate the STLNet on DDD17 val set:
+* For example, evaluate the STLNet on the DDD17 val set:
 ````bash
 python test.py --dataset DDD17_events --input_size 200,346 --dataset_path your_path --checkpoint ./pretrained_models/DDD17/STLNet_DDD17_Test.pth
 ````
-* Or, evalute the STLNet on DSEC-Semantic val set:
+* Or, evaluate the STLNet on the DSEC-Semantic val set:
 ````bash
 python test.py --dataset DSEC_events --input_size 480,640 --dataset_path your_path --checkpoint ./pretrained_models/DSEC/STLNet_DSEC_Test.pth
 ````
