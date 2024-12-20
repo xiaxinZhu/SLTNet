@@ -1,6 +1,6 @@
 # Efficient Event-based Semantic Segmentation with Spike-driven Lightweight Transformer-based Networks
 
-This is the official repository for our recent work: SLTNet[PDF](https://arxiv.org/pdf/2412.12843)
+This is the official repository for our recent work: SLTNet([PDF])(https://arxiv.org/pdf/2412.12843)
 
 
 * **Spiking Lightweight Dilated module**:  reduce the model parameters while maintaining efficient feature extraction ability; capture multi-scale event features while adapting to SNN architectures.
