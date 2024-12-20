@@ -99,14 +99,28 @@ python test.py --dataset DSEC_events --input_size 480,640 --dataset_path your_pa
 
 If you think this implementation is useful for your work, please cite our paper:
 ```
- xxx
-
+@misc{zhu2024efficienteventbasedsemanticsegmentation,
+      title={Efficient Event-based Semantic Segmentation with Spike-driven Lightweight Transformer-based Networks}, 
+      author={Xiaxin Zhu and Fangming Guo and Xianlei Long and Qingyi Gu and Chao Chen and Fuqiang Gu},
+      year={2024},
+      eprint={2412.12843},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.12843}, 
+}
 ```
 
 ## Thanks && Refer
 
 ```bash
-xxx
+@misc{Efficient-Segmentation-Networks,
+  author = {Yu Wang},
+  title = {Efficient-Segmentation-Networks Pytorch Implementation},
+  year = {2019},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/xiaoyufenfei/Efficient-Segmentation-Networks}},
+  commit = {master}
 }
 ```
 
