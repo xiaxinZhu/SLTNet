@@ -45,27 +45,27 @@ The original DDD17 dataset with semantic segmentation labels can be downloaded h
 The DSEC-Semantic dataset can be downloaded here[https://dsec.ifi.uzh.ch/dsec-semantic/]. The dataset should have the following format:
 
 ├── DSEC_Semantic                 
-│   ├── train               
-│   │   ├── zurich_city_00_a
-│   │   │   ├── semantic
-│   │   │   │   ├── left
-│   │   │   │   │   ├── 11classes
-│   │   │   │   │   │   └──data
-│   │   │   │   │   │       ├── 000000.png
-│   │   │   │   │   │       └── ...
-│   │   │   │   │   └── 19classes
-│   │   │   │   │       └──data
-│   │   │   │   │           ├── 000000.png
-│   │   │   │   │           └── ...
-│   │   │   │   └── timestamps.txt
-│   │   │   └── events  
-│   │   │       └── left
-│   │   │           ├── events.h5
-│   │   │           └── rectify_map.h5
-│   │   └── ...
-│   └── test
-│       ├── zurich_city_13_a
-│       │   └── ...
+│   ├── train                 
+│   │   ├── zurich_city_00_a   
+│   │   │   ├── semantic  
+│   │   │   │   ├── left  
+│   │   │   │   │   ├── 11classes  
+│   │   │   │   │   │   └──data  
+│   │   │   │   │   │       ├── 000000.png  
+│   │   │   │   │   │       └── ...  
+│   │   │   │   │   └── 19classes  
+│   │   │   │   │       └──data  
+│   │   │   │   │           ├── 000000.png  
+│   │   │   │   │           └── ...  
+│   │   │   │   └── timestamps.txt  
+│   │   │   └── events    
+│   │   │       └── left  
+│   │   │           ├── events.h5  
+│   │   │           └── rectify_map.h5  
+│   │   └── ...  
+│   └── test  
+│       ├── zurich_city_13_a  
+│       │   └── ...  
 │       └── ... 
 
 * Remenber to replace the dataset path in the yaml with your ture dataset path
