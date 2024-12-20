@@ -1,4 +1,4 @@
-# Efficient Event-based Semantic Segmentation with Spike-driven Lightweight Transformer-based Networks
+# SLTNet: Efficient Event-based Semantic Segmentation with Spike-driven Lightweight Transformer-based Networks
 
 This repository is an official PyTorch implementation of our recent work: **SLTNet**([PDF](https://arxiv.org/pdf/2412.12843)), which was submitted to **IEEE ICRA 2025**, titled "Efficient Event-based Semantic Segmentation with Spike-driven Lightweight Transformer-based Networks".
 
