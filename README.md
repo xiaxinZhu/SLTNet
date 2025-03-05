@@ -7,7 +7,7 @@ This repository is an official PyTorch implementation of our recent work: **SLTN
 * **Spike-driven Transformer Blocks**: leveraging the re-parameterization convolution technique and spike-driven multi-head self-attention mechanism to achieve long-range contextural feature interaction with only floating-point accumulation operations.
 
 ## Updates
-   - The article has been submitted to the **IEEE IROS 2025**.
+   - The article has been submitted to the **IEEE/RSJ IROS 2025**.
    - Our paper was submitted to xxx for public access. (2025/03/05)
    - The training and testing codes and trained models for SLTNet are available here. (2025/03/05)
 
