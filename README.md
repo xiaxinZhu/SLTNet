@@ -8,8 +8,8 @@ This repository is an official PyTorch implementation of our recent work: **SLTN
 
 ## Updates
    - The article has been submitted to the **IEEE IROS 2025**.
-   - Our paper was submitted to xxx for public access. (xx/xx/2024)
-   - The training and testing codes and trained models for SLTNet are available here. (Dec/18/2024)
+   - Our paper was submitted to xxx for public access. (2025/03/05)
+   - The training and testing codes and trained models for SLTNet are available here. (2025/03/05)
 
 
 ## Models
